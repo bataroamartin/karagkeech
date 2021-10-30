@@ -64,22 +64,24 @@ machine taikuda.workers.dev <password> index_password
 ```
 leech - Leech and upload to Telegram.
 clone - Clone Drive file or folder.
-sync - Leech torrent/direct link to Drive.
-tgsync - Mirror telegram files to ur Drive.
+mirror - Leech torrent/direct link to Drive.
+mirrortg - Mirror telegram files to ur Drive.
 log - Check logs.
 status - Get download/upload process status. 
 stop - Stop single process command 
-archive - Leech and upload as archive file on Telegram.
-tarsync - Compress folder/file and upload to Drive.
-extract - Extract file and upload to telegram.
-untarsync - Extract file and upload to Drive.
-tguntar - Extract telegram file and upload to cloud.
-ytdl - Download Youtube video and upload to Telegram.
-ytdlsync - Download Youtube video and upload to Drive.
+leechzip - Leech and upload as archive file on Telegram.
+mirrorzip - Compress folder/file and upload to Drive.
+leechunzip - Extract file and upload to telegram.
+mirrorunzip - Extract file and upload to Drive.
+unziptg - Extract telegram file and upload to cloud.
+leechwatch - Download Youtube video and upload to Telegram.
+mirrorwatch - Download Youtube video and upload to Drive.
 getsize - Get size folder in Drive.
 renewme - Cancel all download process.
-pytleech - Youtube playlist downloader and send to telegram.
-pytdlsync - Youtube playlist downloader and send to Drive.
+leechpytdl - Youtube playlist downloader and send to telegram.
+mirrorpytdl - Youtube playlist downloader and send to Drive.
+savethumbnail - Save custom thumbnail
+clearthumbnail - Clear custom thumbnail
 upload - Hmmm... wait
 tshelp - Torrent search helper.
 speedtest - Check server connection speed.
