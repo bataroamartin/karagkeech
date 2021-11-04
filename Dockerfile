@@ -1,4 +1,4 @@
-FROM breakdowns/mega-sdk-python:latest
+FROM ghcr.io/KangersHub/torrentleechx:latest
 
 RUN mkdir ./CendrawasihLeech
 RUN chmod 777 ./CendrawasihLeech
